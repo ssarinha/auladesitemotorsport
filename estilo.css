@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background: linear-gradient(black, rgb(48, 46, 46));
+}
+
+.box{
+    background: #090a11;
+    margin: 0;
+    opacity: 0.95;
+    position: fixed;
+    width: 100%;
+}
+
+.box_cabecalho{
+display: flex;
+justify-content: space-between; 
+margin: 0px 15% 0 15%;
+}   
+
+.box_cabecalho-titulo{
+    color: #c3073f;
+}
+
+.box_cabecalho-nav-ul{
+    display: flex;
+    list-style: none;   
+}
+
+.box_cabecalho-nav-ul-li{
+    padding: 10px;
+    color: #c5c6c7;
+}
+
+.section_img-banner{
+    text-align: center;
+    width: 50%;
+}
+
+.container_img{
+    width: 50%;
+}
+
+.container{
+    display: flex;
+    margin: 0 10px 0 10px;
+}
+
+
+.container_titulo{
+text-align: center;
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container_p{
+    text-align: justify;
+    margin: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container2{
+    display: flex;
+    margin: 0 10px 0 10px;
+
+}
+.container2_img2{
+    width: 50%;
+}
+.container2_titulo{
+    text-align: center;
+    color: white;
+    margin: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container2_p2{
+    text-align: justify;
+    margin: 50px;
+    display: flex;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.tabela_preços{
+    color: white;
+    margin: 2%;
+}
+
+table,th,td{ 
+    border: 1px solid #ffffff;
+    margin: 10%;
+    color: white;
+}
+
+.container3{
+    display: flex;
+    margin: 0 10px 0 10px;
+
+}
+.container_img3{
+    width: 50%;
+}
+
+.container_titulo3{
+    text-align: center;
+    color: white;
+    margin: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container3_p3{
+    text-align: justify;
+    margin: 50px;
+    display: flex;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container_footer{
+color: white;
+background-color: red;
+text-align: center;
+font-size: 20px;
+padding: 10px;
+}
